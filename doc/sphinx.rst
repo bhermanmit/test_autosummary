@@ -1,0 +1,4 @@
+Autosummary test
+================
+
+.. automodule:: package
