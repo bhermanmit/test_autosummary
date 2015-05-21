@@ -1,4 +1,12 @@
 Autosummary test
 ================
 
-.. automodule:: package
+.. autosummary::
+   :toctree: generated
+
+   package.Model
+
+.. autosummary::
+   :toctree: generated
+
+   sphinx.application.Sphinx
