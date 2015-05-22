@@ -8,8 +8,6 @@ def setup(app):
 
 def env_before_read_docs_handler(app, env, docnames):
 
-    print "IN DOC HANDLER"
-#    temp = docnames[0]
-#    docnames[0] = docnames[-1]
-#    docnames[-1] = temp
-    print docnames
+    temp = docnames[0]
+    docnames[0] = docnames[-1]
+    docnames[-1] = temp
