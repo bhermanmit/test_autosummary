@@ -5,18 +5,6 @@
 class Model(object):
 
     """The model class.
-
-    Attributes
-    ----------
-    a : str
-        A string.
-    b : int
-        An integer.
-
-    Parameters
-    ----------
-    a : str
-        A string.
     """
 
     def __init__(self, a):
@@ -30,10 +18,6 @@ class Model(object):
     def set_b(self, b):
 
         """Sets b.
-
-        Parameters
-        ----------
-        b : int
         """
 
         self._b = b
@@ -41,10 +25,6 @@ class Model(object):
     def get_a(self):
 
         """Returns a.
-
-        Returns
-        -------
-        str
         """
 
         return self._a
@@ -52,10 +32,6 @@ class Model(object):
     def get_b(self):
 
         """Returns b.
-
-        Returns
-        -------
-        int
         """
 
         return self._b
