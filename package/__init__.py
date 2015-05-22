@@ -5,4 +5,4 @@
    Model
 """
 
-from model import Model
+from package.model import Model
